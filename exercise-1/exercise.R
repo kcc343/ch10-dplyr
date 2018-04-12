@@ -44,7 +44,7 @@ makes_1997$average <- (makes_1997$cty + makes_1997$hwy) / 2
 # than 20 miles/gallon in the city. 
 # Save this new data frame in a variable.
 
-two_wheel_20_mpg <- vehicles[vehicles$ddrive == "2-Wheel Drive" & vehicles$cty >
+two_wheel_20_mpg <- vehicles[vehicles$drive == "2-Wheel Drive" & vehicles$cty >
                                20, ]
 
 # Of the above vehicles, what is the vehicle ID of the vehicle with the worst 
