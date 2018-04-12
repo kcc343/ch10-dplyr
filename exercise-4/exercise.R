@@ -60,9 +60,9 @@ mean(to_seatac$time_gain_or_lost, na.rm = TRUE)
 
 filter(flights, origin == "JFK", dest == "SEA") %>% 
   summarize(
-    avg_air_time == mean(air_time, na.rm = TRUE),
-    min_air_time == min(air_time, na.rm = TRUE),
-    max_air_time == max(air_time, na.rm = TRUE)
+    avg_air_time = mean(air_time, na.rm = TRUE),
+    min_air_time = min(air_time, na.rm = TRUE),
+    max_air_time = max(air_time, na.rm = TRUE)
   )
 
 
